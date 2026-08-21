@@ -1,0 +1,21 @@
+# Núcleo de análise de dados
+pandas>=2.0
+numpy>=1.24
+
+# Acesso ao Google BigQuery
+google-cloud-bigquery>=3.11
+db-dtypes>=1.1
+pandas-gbq>=0.19
+
+# Leitura de arquivos Excel (ETL)
+openpyxl>=3.1
+
+# Visualização
+matplotlib>=3.7
+seaborn>=0.12
+
+# Estatística (teste de hipótese)
+scipy>=1.10
+
+# Ambiente de notebooks
+jupyter>=1.0
