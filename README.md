@@ -17,6 +17,7 @@ Repositório central com meus projetos de **Ciência de Dados e Análise de Dado
 | # | Projeto | Descrição | Tecnologias |
 |---|---------|-----------|-------------|
 | 01 | [⚽ Campeonato Brasileiro](brasileirao/) | Pipeline de dados (ETL → BigQuery) e 5 estudos sobre o Brasileirão: evolução ofensiva, fator casa, público, geografia e um teste de hipótese estatístico (ataque × defesa). | Python · BigQuery · Pandas · Seaborn · SciPy |
+| 02 | [🌍 Copa do Mundo 2022](world-cup/) | Análise descritiva testando a frase de Mbappé sobre o futebol sul-americano: comparação de continentes por xG, finalizações e confrontos diretos Europa × América do Sul. | Python · Pandas · Regex |
 
 > 🚧 Mais projetos em breve.
 
@@ -27,12 +28,15 @@ Repositório central com meus projetos de **Ciência de Dados e Análise de Dado
 ```
 data-science/
 ├── README.md            ← você está aqui (índice geral)
-└── brasileirao/         ← projeto: Campeonato Brasileiro
-    ├── README.md        ← explicação completa do projeto
-    ├── requirements.txt
-    ├── notebooks/       ← análises em Jupyter (.ipynb)
-    ├── docs/            ← documentação (dicionário de dados)
-    └── images/          ← gráficos gerados
+├── brasileirao/         ← projeto: Campeonato Brasileiro
+│   ├── README.md        ← explicação completa do projeto
+│   ├── requirements.txt
+│   ├── notebooks/       ← análises em Jupyter (.ipynb)
+│   ├── docs/            ← documentação (dicionário de dados)
+│   └── images/          ← gráficos gerados
+└── world-cup/           ← projeto: Copa do Mundo 2022
+    ├── README.md
+    └── notebooks/
 ```
 
 Cada pasta de projeto é **autossuficiente**: abra o `README.md` dela para entender o contexto, a metodologia e os principais insights.
